@@ -16,7 +16,7 @@ i = 0
 j = 1
 
 #reading the csv file
-with open("/Users/aswinishrestha/Desktop/my_project/env/scatter plot through csv data/data1.tsv") as file: 
+with open("data1.tsv") as file: 
     tsv_file = csv.reader(file, delimiter="\t")
     next(tsv_file)
     for each_list in tsv_file:
